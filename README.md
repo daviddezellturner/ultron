@@ -2,7 +2,7 @@
 A sarcastic virtual homework buddy that can answer mathematics and knowledge questions, based on the Marvel Comics character of the same name.
 Complete description and user instructions on my website: https://www.daviddezellturner.com/personal-projects/ultron-virtual-homework-buddy
 
-**Note: the user is required to have a Wolfram ID for complete functionality. Set app_id equal to your Wolfram ID (i.e. in the space marked "INSERT YOUR WOLFRAM ID HERE".)
+**Note: the user is required to have a Wolfram ID for complete functionality. Set app_id equal to your Wolfram ID (i.e. in the space marked "INSERT YOUR WOLFRAM ID HERE".)**
 
 The basic idea to use Wolfram|Alpha and Wikipedia to create a virtual assistant was inspired by [KhanradCoder's PyDa-Course-Code project](https://github.com/KhanradCoder/PyDa-Course-Code) (which also showed me how to use wxPython to create a simple GUI). I then expanded heavily on this basic structure, first adding error handling in case neither Wolfram nor Wikipedia could answer a question, then adding text-to-speech with pyttsx3, along with a series of responses for different situations. Whenever Ultron is asked a question it can answer, it prefaces the answer with a snarky response; most of these are randomly selected, although some are paired with specific questions or subjects. If Ultron cannot answer a question, it randomly selects an even snarkier response and prompts the user to ask something else.
 
